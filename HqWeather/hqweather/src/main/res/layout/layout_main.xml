@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--由于activity的Theme中的colorPrimary设置ActionBar的颜色，并不能设置ToolBar的颜色
+        所以这里手动设置background-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="主界面"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_drawer_container"
+        android:layout_gravity="start"
+        android:background="@color/colorAccent"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"></FrameLayout>
+</android.support.v4.widget.DrawerLayout>
