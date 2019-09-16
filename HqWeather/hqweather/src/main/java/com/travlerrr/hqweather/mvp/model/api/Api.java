@@ -11,4 +11,5 @@ package com.travlerrr.hqweather.mvp.model.api;
  */
 public interface Api {
     String APP_DOMAIN = "https://api.github.com";
+    String WeatherApi = "https://search.heweather.net";
 }

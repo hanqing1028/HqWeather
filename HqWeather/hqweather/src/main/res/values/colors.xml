@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#469DD1</color>
     <color name="colorAccent">#EB6A26</color>
     <color name="white">#FFFFFF</color>
+
+    <color name="search_city">#000000</color>
+    <color name="search_city_hint">#778899</color>
 </resources>

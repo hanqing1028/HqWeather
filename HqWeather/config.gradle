@@ -18,7 +18,8 @@ ext {
                    rxlifecycleSdkVersion   : "1.0",
                    rxlifecycle2SdkVersion  : "2.2.2",
                    espressoSdkVersion      : "3.0.1",
-                   canarySdkVersion        : "1.6.3"
+                   canarySdkVersion        : "1.6.3",
+                   ormLiteVersion          : "5.1"
         ]
 
     dependencies = [
@@ -93,6 +94,8 @@ ext {
                 "progressmanager"          : "me.jessyan:progressmanager:1.5.0",
                 "retrofit-url-manager"     : "me.jessyan:retrofit-url-manager:1.4.0",
                 "lifecyclemodel"           : "me.jessyan:lifecyclemodel:1.0.1",
+                "ormlite-android"             : "com.j256.ormlite:ormlite-android:${version["ormLiteVersion"]}",
+                "ormlite-core"             : "com.j256.ormlite:ormlite-core:${version["ormLiteVersion"]}",
 
                 //test
                 "junit"                    : "junit:junit:4.12",

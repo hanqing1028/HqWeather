@@ -66,7 +66,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainCon
     public void initData(@Nullable Bundle savedInstanceState) {
         setDrawer();
         setDrawerFragment();
-        Toast.makeText(this, "666test", Toast.LENGTH_SHORT).show();
+
     }
 
     private void setDrawerFragment() {
